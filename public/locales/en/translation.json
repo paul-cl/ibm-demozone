@@ -1,8 +1,22 @@
 {
+    "NavbarContents": {
+        "1": "Home",
+        "2": "Services",
+        "3": "SIGN UP"
+    },
     "Language": {
         "1": "English"
     },
     "Summary": {
         "1":"This is English"
+    },
+    "Topline": {
+        "1": "Marketing Agency"
+    },
+    "Headline": {
+        "1": "Lead Generation Specialist for Online Businesses"
+    },
+    "SubDescription": {
+        "1":"We help business owners increase their revenue. Our team of unique specialist cana hel you achieve your business goals."
     }
 }
