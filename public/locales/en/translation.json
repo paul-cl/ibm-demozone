@@ -1,22 +1,23 @@
 {
     "NavbarContents": {
         "1": "Home",
-        "2": "Services",
+        "2": "Demo",
         "3": "SIGN UP"
+    },
+    "Home":{
+        "FirstTopLine": "Briefing Source",
+        "FirstHeadLine": "Insert Client Center information here",
+        "FirstSummary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "FirstButton": "Get Started",
+        "SecondTopLine": "Demo Zone",
+        "SecondHeadLine": "Insert Demo Zone information here",
+        "SecondSummary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "SecondButton": "Experience demos"
     },
     "Language": {
         "1": "English"
     },
     "Summary": {
         "1":"This is English"
-    },
-    "Topline": {
-        "1": "Marketing Agency"
-    },
-    "Headline": {
-        "1": "Lead Generation Specialist for Online Businesses"
-    },
-    "SubDescription": {
-        "1":"We help business owners increase their revenue. Our team of unique specialist cana hel you achieve your business goals."
     }
 }

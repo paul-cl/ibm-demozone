@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Container, Button } from '../../globalStyles'
-import { InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImageWrapper, Img } from './InfoSection.element'
+import { InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImageWrapper, Img } from '../InfoSection/InfoSection.element'
 import { useTranslation } from 'react-i18next';
 import Fade from 'react-reveal/Fade'
 
-const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, lightText, img, alt }) => {
+const InfoSection2 = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, lightText, img, alt }) => {
     const { t } = useTranslation();    
     
     return (
@@ -14,25 +14,25 @@ const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                 <Container>
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
-                            <Fade bottom>
+                            <Fade left>
                             <TextWrapper>
-                                <TopLine lightTopLine={lightTopLine}>{t('Home.FirstTopLine')}</TopLine>
-                                <Heading lightText={lightText}>{t('Home.FirstHeadLine')}</Heading>
-                                <Subtitle lightTextDesc={lightTextDesc}>{t('Home.FirstSummary')}</Subtitle>
+                                <TopLine lightTopLine={lightTopLine}>{t('Home.SecondTopLine')}</TopLine>
+                                <Heading lightText={lightText}>{t('Home.SecondHeadLine')}</Heading>
+                                <Subtitle lightTextDesc={lightTextDesc}>{t('Home.SecondSummary')}</Subtitle>
                                 <Link to=''>
                                     <Button big fontBig primary={primary}>
-                                        {t('Home.FirstButton')}
+                                        {t('Home.SecondButton')}
                                     </Button>
                                 </Link> 
                             </TextWrapper>
                             </Fade>
                         </InfoColumn>
                         <InfoColumn>
-                            <Fade bottom>
+                            <Fade left>
                                 <ImageWrapper>
                                     <Img src={img} alt={alt} />
                                 </ImageWrapper>
-                                </Fade>
+                            </Fade>
                         </InfoColumn>
                     </InfoRow>
                 </Container>
@@ -41,4 +41,4 @@ const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
     )
 }
 
-export default InfoSection
+export default InfoSection2

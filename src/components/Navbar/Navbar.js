@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import { Nav, NavbarContainer, NavLogo, NavIcon, HamburgerIcon, NavMenu, NavItem, NavLinks, NavItemButton, NavBtnLink } from './Navbar_element'
+import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavLinks } from './Navbar_element'
 import { IconContext } from 'react-icons/lib'
-import { Button } from '../../globalStyles';
+
 import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
@@ -28,17 +28,17 @@ const Navbar = () => {
     window.addEventListener('resize', showButton)
 
     return (
-        <div>
+        <>
             <IconContext.Provider value= {{ color: '#fff'}}>
                 <Nav>
                     <NavbarContainer>
                         <NavLogo to='/'>
                             <NavIcon />
-                            ULTRA
+                            DEMO HUB
                         </NavLogo>
-                        <HamburgerIcon onClick={handleClick}>
+                        <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
-                        </HamburgerIcon>
+                        </MobileIcon>
                         <NavMenu onClick={handleClick} click={click}>
                             <NavItem>
                                 <NavLinks to='/'>
@@ -50,22 +50,11 @@ const Navbar = () => {
                                     {t('NavbarContents.2')}
                                 </NavLinks>
                             </NavItem>
-                            <NavItemButton>
-                                {Button ? (
-                                    <NavBtnLink to="/sign-up">
-                                        <Button primary>{t('NavbarContents.3')}</Button>
-                                    </NavBtnLink>
-                                ) : (
-                                    <NavBtnLink to="/sign-up">
-                                        <Button fontBig primary>{t('NavbarContents.3')}</Button>
-                                    </NavBtnLink>
-                                )}
-                            </NavItemButton>
                         </NavMenu>
                     </NavbarContainer>
                 </Nav>
             </IconContext.Provider>
-        </div>
+        </>
     )
 }
 

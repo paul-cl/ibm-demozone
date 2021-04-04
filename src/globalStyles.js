@@ -26,19 +26,19 @@ export const Container = styled.div `
 
 export const Button = styled.button`
     border-radius: 4px;
-    background: ${({primary}) => (primary ? '#4B59F7' : '#0467FB')};
+    background: ${({primary}) => (primary ? '#ffffff00' : '#ffffff00')};
     white-space: nowrap;
     padding: ${({big}) => (big ? '12px 64px' : '10px 20px')};
-    color: #fff;
-    font-size: ${({fontBig}) => (fontBig ? '20px' : '16')};
+    color: ${({primary}) => (primary ? '#fff' : '#000000')};
+    font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
     outline: none;
-    border: none;
+    border: ${({primary}) => (primary ? '2px solid #fff' : '2px solid #000000')};
     cursor: pointer;
 
     &:hover {
         transition: all 0.3s ease-out;
-        background: #fff;
-        background: ${({primary}) => (primary ? '#0467FB' : '#4B59F7')};
+        background: ${({primary}) => (primary ? '#fff' : '#000000')};
+        color: ${({primary}) => (primary ? '#000000' : '#fff')};
     }
 
     @media screen and (max-width: 960px) {

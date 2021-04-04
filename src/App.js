@@ -20,7 +20,7 @@ function App() {
       </Switch>
       <p>Test</p>
       <p onClick={()=>handleClick('en')}>English</p>
-      <p onClick={()=>handleClick('ko')}>Korean</p>      
+      <p onClick={()=>handleClick('ko')}>한국어</p>      
       <p>{t('Language.1')}</p>
       <p>{t('Summary.1')}</p>
     </Router>
