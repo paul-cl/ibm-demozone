@@ -12,7 +12,11 @@
         "SecondTopLine": "Demo Zone",
         "SecondHeadLine": "Insert Demo Zone information here",
         "SecondSummary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-        "SecondButton": "Experience demos"
+        "SecondButton": "Experience demos",
+        "ThirdTopLine": "IBM Solution",
+        "ThirdHeadLine": "Insert IBM Solution information here",
+        "ThirdSummary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "ThirdButton": "Explore IBM Solution"
     },
     "Language": {
         "1": "English"

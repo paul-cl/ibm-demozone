@@ -1,41 +1,16 @@
-// export const homeData = {
-//     primary: true, 
-//     lightBg: false, 
-//     imgStart: '', 
-//     lightTopLine: true, 
-//     lightTextDesc: true, 
-//     lightText: true,
-//     img: require('../../images/meeting.svg').default,
-//     start: '',
-//     // primary2: false, 
-//     // lightBg2: true, 
-//     // imgStart2: 'start', 
-//     // lightTopLine2: false, 
-//     // lightTextDesc2: false, 
-//     // lightText2: false,
-//     // img2: require('../../images/demo.svg').default,
-//     // start2: 'true',
-//     // alt: "Image",
-// }
-
-export const homeObjOne = {
+export const InfoOne = {
     primary: true,
     lightBg: false,
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Marketing Agency',
-    headline: 'Lead Generation Specialist for Online Businesses',
-    description:
-      'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
-    buttonLabel: 'Get Started',
     imgStart: '',
     img: require('../../images/meeting.svg').default,
-    alt: 'Credit Card',
+    alt: 'Image',
     start: ''
   };
   
-  export const homeObjTwo = {
+  export const InfoTwo = {
     primary: false,
     lightBg: true,
     lightTopLine: false,
@@ -49,6 +24,18 @@ export const homeObjOne = {
     buttonLabel: 'View Case Study',
     imgStart: 'start',
     img: require('../../images/demo.svg').default,
-    alt: 'Vault',
+    alt: 'Image',
     start: 'true'
+  };
+
+  export const InfoThree = {
+    primary: true,
+    lightBg: false,
+    lightTopLine: true,
+    lightText: true,
+    lightTextDesc: true,
+    imgStart: '',
+    img: require('../../images/solution.svg').default,
+    alt: 'Image',
+    start: ''
   };

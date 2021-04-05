@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavLinks } from './Navbar_element'
 import { IconContext } from 'react-icons/lib'
@@ -9,23 +9,10 @@ const Navbar = () => {
 
     const { t } = useTranslation();
     const [click, setClick] = useState(false)
-    const [button, setButton] = useState(true)
+ 
 
     const handleClick = () => setClick(!click)
 
-    const showButton = () => {
-        if(window.innerWidth <= 960) {
-            setButton(false)
-        }
-        else{
-            setButton(true)
-        }
-    }
-
-    useEffect(() => {
-        showButton()
-    }, {})
-    window.addEventListener('resize', showButton)
 
     return (
         <>

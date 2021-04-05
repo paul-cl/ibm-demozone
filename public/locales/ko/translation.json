@@ -11,8 +11,12 @@
         "FirstButton": "바로가기",
         "SecondTopLine": "데모존",
         "SecondHeadLine": "데모들에 관한 내용을 여기에 집어넣으세요",
-        "SecondSummary": "2로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽 디자인 분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나 시각적 연출을 보여줄 때 사용하는 표준 채우기 텍스트.",
-        "SecondButton": "데모 체험하기"
+        "SecondSummary": "로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽 디자인 분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나 시각적 연출을 보여줄 때 사용하는 표준 채우기 텍스트.",
+        "SecondButton": "데모 체험하기",
+        "ThirdTopLine": "IBM 솔루션",
+        "ThirdHeadLine": "IBM 솔루션을 이용한 데모에 관한 내용을 여기에 집어넣으세요",
+        "ThirdSummary": "로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽 디자인 분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나 시각적 연출을 보여줄 때 사용하는 표준 채우기 텍스트.",
+        "ThirdButton": "IBM 솔루션 보기"
     },
     "Language": {
         "1": "한국어"
