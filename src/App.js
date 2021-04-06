@@ -18,6 +18,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={ Home } />
       </Switch>
+      <Footer />
       <p>Test</p>
       <p onClick={()=>handleClick('en')}>English</p>
       <p onClick={()=>handleClick('ko')}>한국어</p>      

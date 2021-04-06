@@ -9,6 +9,7 @@ const Home = () => {
             <InfoSection {...InfoOne} />
             <InfoSection2 {...InfoTwo} />
             <InfoSection3 {...InfoThree} />
+            <InfoSection2 {...InfoTwo} />
         </>
     )
 }
