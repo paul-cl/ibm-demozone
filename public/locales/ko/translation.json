@@ -18,10 +18,21 @@
         "ThirdSummary": "로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽 디자인 분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나 시각적 연출을 보여줄 때 사용하는 표준 채우기 텍스트.",
         "ThirdButton": "IBM 솔루션 보기"
     },
-    "Language": {
-        "1": "한국어"
-    },
-    "Summary": {
-        "1":"이 언어는 한국어입니다"
+    "Footer":{
+        "Solution": "IBM 서비스/솔루션",
+        "Solutions1": "Machine Learning",
+        "Solutions2": "IBM Cloud Satellite",
+        "Solutions3": "Cloud Paks Series",
+        "Solutions4": "IBM Weather",
+        "ContactUs": "회사 정보",
+        "ContactUs1": "주소: 영등포구 국제금융로 10, 여의도, 서울",
+        "ContactUs2": "전화번호: (02)3781-5006",
+        "ContactUs3": "이메일: cipkorea@kr.ibm.com",
+        "VisitUs": "소셜미디어",
+        "NewsLetter":" 지금 IBM 뉴스레터에 등록하세요",
+        "NewsLetter1":"이메일 입력",
+        "NewsLetter2":"구독하기"
+        
+
     }
 }

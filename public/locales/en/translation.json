@@ -1,8 +1,7 @@
 {
     "NavbarContents": {
         "1": "Home",
-        "2": "Demo",
-        "3": "SIGN UP"
+        "2": "Demo"
     },
     "Home":{
         "FirstTopLine": "Briefing Source",
@@ -19,16 +18,19 @@
         "ThirdButton": "Explore IBM Solution"
     },
     "Footer":{
-        "Solution 1":"",
-        "ContatctUs1": "Address: 10 Gukjegeumyung-ro, Yeoui-dong, Yeongdeungpo-gu, Seoul",
-        "ContatctUs2": "Phone Number: (02)3781-5006",
-        "ContatctUs3": "Email: cipkorea@kr.ibm.com"
+        "Solution": "IBM Service/Solution",
+        "Solutions1": "Machine Learning",
+        "Solutions2": "IBM Cloud Satellite",
+        "Solutions3": "Cloud Paks Series",
+        "Solutions4": "IBM Weather",
+        "ContactUs": "Contact Us",
+        "ContactUs1": "Address: 10 Gukjegeumyung-ro, Yeoui-dong, Yeongdeungpo-gu, Seoul",
+        "ContactUs2": "Phone Number: (02)3781-5006",
+        "ContactUs3": "Email: cipkorea@kr.ibm.com",
+        "VisitUs": "Visit Us",
+        "NewsLetter":" Get the latest IBM newsletter",
+        "NewsLetter1":"Enter your e-mail address",
+        "NewsLetter2":"Subscribe"
 
-    },
-    "Language": {
-        "1": "English"
-    },
-    "Summary": {
-        "1":"This is English"
     }
 }

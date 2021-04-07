@@ -74,7 +74,8 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
   height: 60px;
   border-bottom: 2px solid transparent;
-
+  line-height: 15px;
+  
   &:hover {
     border-bottom: 2px solid #fff;
   }
@@ -114,9 +115,11 @@ export const NavLanguage = styled.p `
   
   @media screen and (max-width: 960px) {
     display: flex;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 35px;
     word-break: keep-all;
+    line-height: 20px;
   }
 `
 
