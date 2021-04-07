@@ -63,7 +63,7 @@ export const NavMenu = styled.ul`
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 60px;
+    top: 59px;
     left: ${({ click }) => (click ? '0' : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
@@ -86,7 +86,39 @@ export const NavItem = styled.li`
       border: none;
     }
   }
-`;
+`
+
+export const NavBottom = styled.div `
+  display: none;
+
+  @media screen and (max-width: 960px) {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    margin: 30px;
+  }
+`
+
+export const SocialIcon = styled.p `
+  display: none;
+
+  @media screen and (max-width: 960px) {
+   
+  }
+`
+
+export const NavLanguage = styled.p `
+
+  display: none;
+  
+  @media screen and (max-width: 960px) {
+    display: flex;
+    padding: 15px;
+    margin-bottom: 35px;
+    word-break: keep-all;
+  }
+`
 
 
 export const NavLinks = styled(Link)`

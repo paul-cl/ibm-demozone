@@ -18,6 +18,13 @@
         "ThirdSummary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
         "ThirdButton": "Explore IBM Solution"
     },
+    "Footer":{
+        "Solution 1":"",
+        "ContatctUs1": "Address: 10 Gukjegeumyung-ro, Yeoui-dong, Yeongdeungpo-gu, Seoul",
+        "ContatctUs2": "Phone Number: (02)3781-5006",
+        "ContatctUs3": "Email: cipkorea@kr.ibm.com"
+
+    },
     "Language": {
         "1": "English"
     },

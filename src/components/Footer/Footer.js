@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import React from 'react'
 import { Button } from '../../globalStyles'
 import { FooterContainer, FooterSubscription , FooterSubHeading, FooterSubText, Form, FormInput, 
@@ -5,10 +6,21 @@ import { FooterContainer, FooterSubscription , FooterSubHeading, FooterSubText, 
 
 
 const Footer = () => {
+
+    const { t, i18n } = useTranslation();
+  
+    function handleClick(lang){
+      i18n.changeLanguage(lang);
+    }
+
     return (
         <FooterContainer>
             
             <FooterSubscription>
+                <FooterSubHeading>
+                <p onClick={()=>handleClick('en')}>English</p>
+                <p onClick={()=>handleClick('ko')}>한국어</p>    
+                </FooterSubHeading>
                 <FooterSubHeading>
                     Join our exclusive membership to receieve the latest news and trends
                 </FooterSubHeading>
@@ -26,6 +38,7 @@ const Footer = () => {
                 <FooterLinkWrapper>
                     <FooterLinksItems>
                         <FooterLinkTitle>About Us</FooterLinkTitle>
+                        <hr size="0.5" width="96%" color="#808080" />
                         <FooterLink to='/sign-up'>How it works</FooterLink>
                         <FooterLink to='/'>Testimonials</FooterLink>
                         <FooterLink to='/'>Careers</FooterLink>

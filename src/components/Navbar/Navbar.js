@@ -1,15 +1,17 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavLinks } from './Navbar_element'
+import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavLinks, NavLanguage, NavBottom, SocialIcon } from './Navbar_element'
 import { IconContext } from 'react-icons/lib'
-
 import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
 
-    const { t } = useTranslation();
+    const { i18n, t } = useTranslation();
     const [click, setClick] = useState(false)
- 
+  
+    function asdf(lang){
+      i18n.changeLanguage(lang);
+    }
 
     const handleClick = () => setClick(!click)
 
@@ -19,7 +21,7 @@ const Navbar = () => {
             <IconContext.Provider value= {{ color: '#fff'}}>
                 <Nav>
                     <NavbarContainer>
-                        <NavLogo to='/' onClick={handleClick} click={click}>
+                        <NavLogo to='/' >
                             <NavIcon />
                             DEMO HUB
                         </NavLogo>
@@ -37,6 +39,15 @@ const Navbar = () => {
                                     {t('NavbarContents.2')}
                                 </NavLinks>
                             </NavItem>
+
+                            <NavBottom>
+                                <NavLanguage onClick={()=>asdf('en')}>English</NavLanguage>
+                                <NavLanguage onClick={()=>asdf('ko')}>한국어</NavLanguage>
+                            </NavBottom>
+                            <NavBottom>
+                                <SocialIcon>asdf</SocialIcon>
+                            </NavBottom>
+                            
                         </NavMenu>
                     </NavbarContainer>
                 </Nav>
