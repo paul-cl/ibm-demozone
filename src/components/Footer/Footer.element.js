@@ -59,7 +59,7 @@ export const FooterLinksItems = styled.div `
 
 export const FooterLinkTitle = styled.h3 `
     margin-bottom: 5px;
-    line-height: 25px;
+    line-height: 20px;
 `
 
 export const FooterLinkLine = styled.hr `
@@ -102,13 +102,6 @@ export const SocialIconLink = styled.a`
         color: #00adef;
         transition: 0.3s ease-out;
     } 
-`
-
-export const FooterSubscription = styled.section `
-    display: flex;
-    margin-bottom: 24px;
-    color:#fff;
-
 `
 
 export const FooterForm = styled.div `
@@ -174,7 +167,18 @@ export const FormButton = styled.button`
     }
 `
 
-export const FooterSubHeading = styled.p `
+export const FooterBottom = styled.div `
+    justify-content: space-between;
+    
+`
+
+export const FooterSubscription = styled.section `
+    display: flex;
+    margin-bottom: 24px;
+    color:#fff;
+
+`
+export const FooterLanguage = styled.p `
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 15px;
     font-size: 15px;

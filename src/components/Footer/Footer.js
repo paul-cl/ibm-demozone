@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import React from 'react'
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import { BsNewspaper } from 'react-icons/bs'
-import { FooterContainer, FooterDiv, FooterSubscription , FooterSubHeading, FooterLinkLine, FormInput, FormButton, FooterForm,
+import { FooterContainer, FooterDiv, FooterSubscription , FooterLanguage, FooterLinkLine, FormInput, FormButton, FooterForm,
         FooterLinksContainer, FooterLinkWrapper, FooterLinksItems,FooterLinkTitle, FooterContents, FooterContentsLink,
         SocialIcons, SocialIconLink } from './Footer.element'
 
@@ -74,13 +74,13 @@ const Footer = () => {
 
                 <FooterSubscription>
                     
-                    <FooterSubHeading>
+                    <FooterLanguage>
                     <p onClick={()=>handleClick('en')}>English</p>
-                    </FooterSubHeading>
+                    </FooterLanguage>
                     
-                    <FooterSubHeading>
+                    <FooterLanguage>
                     <p onClick={()=>handleClick('ko')}>한국어</p> 
-                    </FooterSubHeading>
+                    </FooterLanguage>
                 </FooterSubscription>
             </FooterDiv>
         </FooterContainer>
