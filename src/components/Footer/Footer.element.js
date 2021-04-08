@@ -169,24 +169,59 @@ export const FormButton = styled.button`
 
 export const FooterBottom = styled.div `
     justify-content: space-between;
-    
+    align-item: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 `
 
 export const FooterSubscription = styled.section `
     display: flex;
     margin-bottom: 24px;
+    margin-right: 5px;
     color:#fff;
+    float: right;
 
 `
 export const FooterLanguage = styled.p `
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 15px;
     font-size: 15px;
-    line-height: 24px;
+    line-height: 76px;
     padding: 10px;
-    
+    word-break: keep-all;
+    vertical-align: middle;
+
     &:hover {
         color: #00adef;
         transition: 0.3s ease-out;
     }
+
+    @media screen and (max-width: 820px) {
+        line-height: 51px;
+    }
 `
+
+export const FooterLogoWrapper = styled.div `
+    max-width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    margin: 16px;
+`
+
+export const FooterLogoImage = styled.img `
+    
+    padding-right: 0;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 150px;
+
+    @media screen and (max-width: 820px) {
+        max-height: 35px;
+        max-width: 100px;
+    }
+`
+

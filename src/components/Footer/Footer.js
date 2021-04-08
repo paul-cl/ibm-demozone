@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react
 import { BsNewspaper } from 'react-icons/bs'
 import { FooterContainer, FooterDiv, FooterSubscription , FooterLanguage, FooterLinkLine, FormInput, FormButton, FooterForm,
         FooterLinksContainer, FooterLinkWrapper, FooterLinksItems,FooterLinkTitle, FooterContents, FooterContentsLink,
-        SocialIcons, SocialIconLink } from './Footer.element'
+        SocialIcons, SocialIconLink, FooterBottom, FooterLogoWrapper, FooterLogoImage } from './Footer.element'
 
 
 const Footer = () => {
@@ -12,7 +12,8 @@ const Footer = () => {
     const { t, i18n } = useTranslation();
   
     function handleClick(lang){
-      i18n.changeLanguage(lang);
+        window.location.reload();
+        i18n.changeLanguage(lang);
     }
 
     return (
@@ -71,17 +72,15 @@ const Footer = () => {
                         </FooterForm>
                     </FooterLinkWrapper>
                 </FooterLinksContainer>
-
-                <FooterSubscription>
-                    
-                    <FooterLanguage>
-                    <p onClick={()=>handleClick('en')}>English</p>
-                    </FooterLanguage>
-                    
-                    <FooterLanguage>
-                    <p onClick={()=>handleClick('ko')}>한국어</p> 
-                    </FooterLanguage>
-                </FooterSubscription>
+                <FooterBottom>
+                    <FooterLogoWrapper>
+                        <FooterLogoImage src={require('../../images/ibm.png').default} alt='ibm' />
+                    </FooterLogoWrapper>
+                    <FooterSubscription>
+                        <FooterLanguage onClick={()=>handleClick('ko')}>한국어</FooterLanguage>              
+                        <FooterLanguage onClick={()=>handleClick('en')}>English</FooterLanguage>
+                    </FooterSubscription>
+                </FooterBottom>
             </FooterDiv>
         </FooterContainer>
     )

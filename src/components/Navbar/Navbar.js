@@ -41,8 +41,8 @@ const Navbar = () => {
                             </NavItem>
 
                             <NavBottom>
-                                <NavLanguage onClick={()=>asdf('en')}>English</NavLanguage>
                                 <NavLanguage onClick={()=>asdf('ko')}>한국어</NavLanguage>
+                                <NavLanguage onClick={()=>asdf('en')}>English</NavLanguage>
                             </NavBottom>
                             <NavBottom>
                                 <SocialIcon>asdf</SocialIcon>

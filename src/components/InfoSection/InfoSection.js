@@ -15,16 +15,16 @@ const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
                             <Fade bottom>
-                            <TextWrapper>
-                                <TopLine lightTopLine={lightTopLine}>{t('Home.FirstTopLine')}</TopLine>
-                                <Heading lightText={lightText}>{t('Home.FirstHeadLine')}</Heading>
-                                <Subtitle lightTextDesc={lightTextDesc}>{t('Home.FirstSummary')}</Subtitle>
-                                <Link to=''>
-                                    <Button big fontBig primary={primary}>
-                                        {t('Home.FirstButton')}
-                                    </Button>
-                                </Link> 
-                            </TextWrapper>
+                                <TextWrapper>
+                                    <TopLine lightTopLine={lightTopLine}>{t('Home.FirstTopLine')}</TopLine>
+                                    <Heading lightText={lightText}>{t('Home.FirstHeadLine')}</Heading>
+                                    <Subtitle lightTextDesc={lightTextDesc}>{t('Home.FirstSummary')}</Subtitle>
+                                    <Link to=''>
+                                        <Button big fontBig primary={primary}>
+                                            {t('Home.FirstButton')}
+                                        </Button>
+                                    </Link> 
+                                </TextWrapper>
                             </Fade>
                         </InfoColumn>
                         <InfoColumn>
@@ -32,7 +32,7 @@ const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                                 <ImageWrapper>
                                     <Img src={img} alt={alt} />
                                 </ImageWrapper>
-                                </Fade>
+                            </Fade>
                         </InfoColumn>
                     </InfoRow>
                 </Container>
