@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const FooterContainer = styled.div `
-    background-color: #111933;
+    background-color: rgb(30, 30, 30);
     padding: 6rem 0 2rem 0;
     display: flex;
     flex-direction: column;
@@ -169,7 +169,7 @@ export const FormButton = styled.button`
 
 export const FooterBottom = styled.div `
     justify-content: space-between;
-    align-item: center;
+    align-items: center;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -203,7 +203,7 @@ export const FooterLanguage = styled.p `
 `
 
 export const FooterLogoWrapper = styled.div `
-    max-width: 150px;
+    max-width: 155px;
     display: flex;
     justify-content: flex-start;
     float: left;
@@ -225,3 +225,12 @@ export const FooterLogoImage = styled.img `
     }
 `
 
+export const FooterLogoImageCopyright = styled.p `
+    font-size:12px;
+    line-height: 12px;
+    color: #808080;
+
+    @media screen and (max-width: 820px) {
+        font-size: 7px;
+    }
+`

@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react
 import { BsNewspaper } from 'react-icons/bs'
 import { FooterContainer, FooterDiv, FooterSubscription , FooterLanguage, FooterLinkLine, FormInput, FormButton, FooterForm,
         FooterLinksContainer, FooterLinkWrapper, FooterLinksItems,FooterLinkTitle, FooterContents, FooterContentsLink,
-        SocialIcons, SocialIconLink, FooterBottom, FooterLogoWrapper, FooterLogoImage } from './Footer.element'
+        SocialIcons, SocialIconLink, FooterBottom, FooterLogoWrapper, FooterLogoImage, FooterLogoImageCopyright } from './Footer.element'
 
 
 const Footer = () => {
@@ -74,7 +74,11 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <FooterBottom>
                     <FooterLogoWrapper>
+                        <div>
                         <FooterLogoImage src={require('../../images/ibm.png').default} alt='ibm' />
+                        <FooterLogoImageCopyright>Copyright © 2021 IBM Korea</FooterLogoImageCopyright>
+                        </div>
+                        
                     </FooterLogoWrapper>
                     <FooterSubscription>
                         <FooterLanguage onClick={()=>handleClick('ko')}>한국어</FooterLanguage>              

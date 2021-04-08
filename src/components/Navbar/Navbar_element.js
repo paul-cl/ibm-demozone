@@ -4,15 +4,17 @@ import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav `
-  background: #111933;
+  background: ${({scrollNav}) => (scrollNav ? 'rgb(30, 30, 30)' : 'transparent')};
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.0rem;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   z-index: 999;
+  transition: 0.5s all ease;
 `;
 
 export const NavbarContainer = styled(Container)`
