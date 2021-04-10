@@ -33,6 +33,7 @@ export const NavLogo = styled(Link)`
   font-size: 1.8rem;
   display: flex;
   align-items: center;
+  z-index: 999;
 `;
 
 export const NavIcon = styled(AiOutlineDatabase)`
@@ -50,6 +51,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 40%);
     font-size: 1.8rem;
     cursor: pointer;
+    z-index: 999;
   }
 `;
 
@@ -65,11 +67,10 @@ export const NavMenu = styled.ul`
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 59px;
     left: ${({ click }) => (click ? '0' : '-100%')};
     opacity: 1;
-    transition: all 0.5s ease;
-    background: #111933;
+    transition: all 0.3s ease;
+    background: rgb(30, 30, 30);
   }
 `;
 

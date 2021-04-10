@@ -48,15 +48,16 @@ export const TitleTextWrapper = styled.div `
 
 export const HeroH1 = styled.h1 `
     color: #fff;
-    font-size: 3.7rem;
+    font-size: 3.8rem;
     text-align: left;
+    font-family: 'Bahnschrift SemiBold';
 
     @media screen and (max-width: 768px) {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
     
     @media screen and (max-width: 480px) {
-        font-size: 2.3rem;
+        font-size: 2.5rem;
     }
 `
 
@@ -65,7 +66,7 @@ export const HeroP = styled.p `
     color: #fff;
     font-size: 1.3rem;
     text-align: left;
-    max-width: 420px;
+    max-width: 500px;
     @media screen and (max-width: 768px) {
         font-size: 1rem;
         max-width: 250px;
@@ -76,4 +77,25 @@ export const HeroP = styled.p `
         font-size: 0.9rem;
     }
 
+`
+
+export const TitleLine = styled.hr `
+    height: 8px;
+    background-color: #fff;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 36%;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        width: 50%;
+    }
+
+    @media screen and (max-width: 480px) {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        width: 50%;
+    }
 `
