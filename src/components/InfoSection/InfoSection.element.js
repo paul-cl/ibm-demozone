@@ -43,7 +43,7 @@ export const TextWrapper = styled.div `
 
 export const TopLine = styled.div `
     color: ${({lightTopLine}) => (lightTopLine ? '#a9b3c1' : '#1c2237')};
-    font-size: 18px;
+    font-size: 16px;
     line-height: 16px;
     font-weight: 550;
     letter-spacing: 1.4px;
@@ -52,7 +52,7 @@ export const TopLine = styled.div `
 
 export const Heading = styled.h1 `
     margin-bottom: 24px;
-    font-size: 48px;
+    font-size: 42px;
     line-height: 48px;
     color: ${({lightText}) => (lightText ? '#f7f8fa' : '#1c2237')};
 `
@@ -60,7 +60,7 @@ export const Heading = styled.h1 `
 export const Subtitle = styled.p `
     max-width: 440px;
     margin-bottom: 35px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     color: ${({lightTextDesc}) => (lightTextDesc ? '#f7f8fa' : '#1c2237')};
 `

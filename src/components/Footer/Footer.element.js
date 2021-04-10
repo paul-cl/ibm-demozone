@@ -16,6 +16,7 @@ export const FooterDiv = styled.div `
     margin-left: auto;
     padding-right: 50px;
     padding-left: 50px;
+    
 
     @media screen and (max-width: 991px) {
         padding-right: 30px;
@@ -57,9 +58,10 @@ export const FooterLinksItems = styled.div `
     }
 `
 
-export const FooterLinkTitle = styled.h3 `
+export const FooterLinkTitle = styled.h1 `
     margin-bottom: 5px;
     line-height: 20px;
+    font-size: 18px;
 `
 
 export const FooterLinkLine = styled.hr `
@@ -74,13 +76,13 @@ export const FooterContents = styled.p `
     text-decoration : none;
     text-align: left;
     margin-bottom: 0.5rem;
-    font-size: 15px;
+    font-size: 14px;
 `
 export const FooterContentsLink = styled.a `
     color:#fff;
     text-decoration : none;
     margin-bottom: 0.5rem;
-    font-size: 15px;
+    font-size: 14px;
 
     &:hover {
         color: #00adef;
@@ -94,7 +96,7 @@ export const SocialIcons = styled.div`
 
 export const SocialIconLink = styled.a`
   color: #fff;
-  font-size: 25px;
+  font-size: 22px;
   padding-right: 20px;
   border-bottom: 0.5px solid transparent;
 
@@ -128,7 +130,7 @@ export const FormInput = styled.input`
     padding: 10px;
     outline: none;
     border: none;
-    font-size: 15px;
+    font-size: 13px;
     border: 1px solid #f6f6f6;
     width: 100%;
     
@@ -150,7 +152,7 @@ export const FormButton = styled.button`
     white-space: nowrap;
     padding: 10px 25px;
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     outline: none;
     border: 2px solid #DC143C;
     cursor: pointer;
@@ -186,7 +188,7 @@ export const FooterSubscription = styled.section `
 export const FooterLanguage = styled.p `
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 76px;
     padding: 10px;
     word-break: keep-all;
@@ -203,7 +205,7 @@ export const FooterLanguage = styled.p `
 `
 
 export const FooterLogoWrapper = styled.div `
-    max-width: 155px;
+    max-width: 130px;
     display: flex;
     justify-content: flex-start;
     float: left;
@@ -226,8 +228,8 @@ export const FooterLogoImage = styled.img `
 `
 
 export const FooterLogoImageCopyright = styled.p `
-    font-size:12px;
-    line-height: 12px;
+    font-size:10px;
+    line-height: 10px;
     color: #808080;
 
     @media screen and (max-width: 820px) {
