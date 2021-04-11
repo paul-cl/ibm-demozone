@@ -76,13 +76,13 @@ export const FooterContents = styled.p `
     text-decoration : none;
     text-align: left;
     margin-bottom: 0.5rem;
-    font-size: 14px;
+    font-size: 13.5px;
 `
 export const FooterContentsLink = styled.a `
     color:#fff;
     text-decoration : none;
     margin-bottom: 0.5rem;
-    font-size: 14px;
+    font-size: 13.5px;
 
     &:hover {
         color: #00adef;
@@ -130,7 +130,7 @@ export const FormInput = styled.input`
     padding: 10px;
     outline: none;
     border: none;
-    font-size: 13px;
+    font-size: 13.5px;
     border: 1px solid #f6f6f6;
     width: 100%;
     
@@ -152,7 +152,7 @@ export const FormButton = styled.button`
     white-space: nowrap;
     padding: 10px 25px;
     color: #fff;
-    font-size: 14px;
+    font-size: 13.5px;
     outline: none;
     border: 2px solid #DC143C;
     cursor: pointer;
@@ -188,7 +188,7 @@ export const FooterSubscription = styled.section `
 export const FooterLanguage = styled.p `
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 13.5px;
     line-height: 76px;
     padding: 10px;
     word-break: keep-all;

@@ -3,6 +3,11 @@
         "1": "Home",
         "2": "Demo"
     },
+    "MainHome":{
+        "Title1": "WELCOME TO",
+        "Title2": "DEMO DRIVE",
+        "Description": "Check out our PoC and demo videos powered by IBM technology"
+    },
     "Home":{
         "FirstTopLine": "Briefing Source",
         "FirstHeadLine": "Insert Briefing Source information here",
@@ -16,6 +21,16 @@
         "ThirdHeadLine": "Insert IBM Solution information here",
         "ThirdSummary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
         "ThirdButton": "Explore IBM Solution"
+    },
+    "Cards": {
+        "CardsHeading": "Check out more contents here",
+        "CardSubHeading1": "DALLAS",
+        "CardHeading1": "Dallas Client Center Demo Link",
+        "CardSubHeading2": "TOKYO",
+        "CardHeading2": "Client Center Experience Techonolgy Tube",
+        "CardSubHeading3": "BLOG",
+        "CardHeading3": "Your Business with IBM Techonology",
+        "CardFooter": "LEARN MORE"
     },
     "Footer":{
         "Solution": "IBM Service/Solution",

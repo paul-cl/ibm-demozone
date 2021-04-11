@@ -46,7 +46,7 @@ export const TitleTextWrapper = styled.div `
     z-index: 3;
 `
 
-export const HeroH1 = styled.h1 `
+export const MainTitle = styled.h1 `
     color: #fff;
     font-size: 3.8rem;
     text-align: left;
@@ -54,19 +54,21 @@ export const HeroH1 = styled.h1 `
 
     @media screen and (max-width: 768px) {
         font-size: 3rem;
+        max-width: 250px;
     }
     
     @media screen and (max-width: 480px) {
         font-size: 2.5rem;
+        max-width: 250px;
     }
 `
 
-export const HeroP = styled.p `
+export const MainParagraph = styled.p `
     margin-top: 24px;
     color: #fff;
     font-size: 1.3rem;
     text-align: left;
-    max-width: 500px;
+    max-width: 480px;
     @media screen and (max-width: 768px) {
         font-size: 1rem;
         max-width: 250px;

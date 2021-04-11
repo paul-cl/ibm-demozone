@@ -1,8 +1,11 @@
 import React from 'react'
 import Video from '../../images/test.mp4'
-import { Wrapper, BackgroundVid, Videosrc, TitleTextWrapper, HeroH1, HeroP, TitleLine} from './MainInfoSection.element'
+import { useTranslation } from 'react-i18next';
+import { Wrapper, BackgroundVid, Videosrc, TitleTextWrapper, MainTitle, MainParagraph, TitleLine } from './MainInfoSection.element'
 
 const MainInfoSection = () => {
+    const { t } = useTranslation(); 
+
     return (
         <>  
             <BackgroundVid>
@@ -12,12 +15,10 @@ const MainInfoSection = () => {
                 
                 
                 <TitleTextWrapper>
-                    <HeroH1>WELCOME TO</HeroH1>
-                    <HeroH1>DEMO DRIVE</HeroH1>
+                    <MainTitle>{t('MainHome.Title1')}</MainTitle>
+                    <MainTitle>{t('MainHome.Title2')}</MainTitle>
                     <TitleLine></TitleLine>
-                    <HeroP>
-                        Check out our PoC and demo videos powered by IBM technology
-                    </HeroP>
+                    <MainParagraph>{t('MainHome.Description')}</MainParagraph>
                 </TitleTextWrapper> 
 
             </Wrapper>

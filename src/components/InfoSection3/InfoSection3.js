@@ -14,7 +14,7 @@ const InfoSection3 = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc,
                 <Container>
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
-                            <Fade top>
+                            <Fade bottom>
                             <TextWrapper>
                                 <TopLine lightTopLine={lightTopLine}>{t('Home.ThirdTopLine')}</TopLine>
                                 <Heading lightText={lightText}>{t('Home.ThirdHeadLine')}</Heading>
@@ -28,7 +28,7 @@ const InfoSection3 = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc,
                             </Fade>
                         </InfoColumn>
                         <InfoColumn>
-                            <Fade top>
+                            <Fade bottom>
                                 <ImageWrapper>
                                     <Img src={img} alt={alt} />
                                 </ImageWrapper>

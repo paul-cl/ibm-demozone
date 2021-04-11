@@ -4,6 +4,11 @@
         "2": "데모",
         "3": "회원가입"
     },
+    "MainHome":{
+        "Title1": "DEMO DRIVE에 오신걸",
+        "Title2": "환영합니다",
+        "Description": "IBM 솔루션으로 만든 PoC와 데모 비디오를 여기서 체험하세요"
+    },
     "Home":{
         "FirstTopLine": "브리핑 소스",
         "FirstHeadLine": "브리핑 소스에 관한 내용을 여기에 집어넣으세요",
@@ -17,6 +22,16 @@
         "ThirdHeadLine": "IBM 솔루션을 이용한 데모에 관한 내용을 여기에 집어넣으세요",
         "ThirdSummary": "로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽 디자인 분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나 시각적 연출을 보여줄 때 사용하는 표준 채우기 텍스트.",
         "ThirdButton": "IBM 솔루션 보기"
+    },    
+    "Cards": {
+        "CardsHeading": "더 많은 컨텐츠를 여기서 확인하세요",
+        "CardSubHeading1": "달라스",
+        "CardHeading1": "달라스 Cliente Center 데모 링크",
+        "CardSubHeading2": "도쿄",
+        "CardHeading2": "도쿄 Client Center Experience Techonolgy Tube",
+        "CardSubHeading3": "블로그",
+        "CardHeading3": "IBM 기술과 함께하는 비지니스의 미래",
+        "CardFooter": "더 알아보기"
     },
     "Footer":{
         "Solution": "IBM 서비스/솔루션",

@@ -1,6 +1,6 @@
 import React from 'react'
 import { InfoOne, InfoTwo, InfoThree } from './Data'
-import { InfoSection, InfoSection2, InfoSection3, MainInfoSection } from '../../components'
+import { InfoSection, InfoSection2, InfoSection3, MainInfoSection, CardsSection } from '../../components'
 
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
             <InfoSection {...InfoOne} />
             <InfoSection2 {...InfoTwo} />
             <InfoSection3 {...InfoThree} />
-            <InfoSection2 {...InfoTwo} />
+            <CardsSection />
         </>
     )
 }
