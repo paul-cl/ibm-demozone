@@ -109,7 +109,7 @@ export const CardFooter = styled.div`
   height: 50px;
   padding: 10px;
   align-items: right;
-  background-color: #000000;
+  background-color: #111933;
 `
 
 export const CardFooterText = styled.p`
@@ -121,7 +121,7 @@ export const CardFooterText = styled.p`
     vertical-align: middle;
 `
 
-export const SocialIconLink = styled.p`
+export const CardRightArrow = styled.p`
   color: #fff;
   font-size: 1rem;
   line-height: 32px;

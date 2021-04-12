@@ -50,16 +50,15 @@ export const MainTitle = styled.h1 `
     color: #fff;
     font-size: 3.8rem;
     text-align: left;
-    font-family: 'Bahnschrift SemiBold';
 
     @media screen and (max-width: 768px) {
         font-size: 3rem;
-        max-width: 250px;
+        max-width: 280px;
     }
     
     @media screen and (max-width: 480px) {
         font-size: 2.5rem;
-        max-width: 250px;
+        max-width: 280px;
     }
 `
 
@@ -71,11 +70,11 @@ export const MainParagraph = styled.p `
     max-width: 480px;
     @media screen and (max-width: 768px) {
         font-size: 1rem;
-        max-width: 250px;
+        max-width: 280px;
     }
     
     @media screen and (max-width: 480px) {
-        max-width: 220px;
+        max-width: 280px;
         font-size: 0.9rem;
     }
 

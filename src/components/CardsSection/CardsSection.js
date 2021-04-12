@@ -1,6 +1,6 @@
 import React from 'react'
-import { CardSection, CardsWrapper, CardsHeading, CardsContainer, Card, CardInfo,
-        CardImg, CardSubHeading, CardHeading, CardFooter, CardFooterText, SocialIconLink } from './CardsSection.element'
+import { CardSection, CardsWrapper, CardsHeading, CardsContainer, Card, CardInfo, CardImg, 
+        CardSubHeading, CardHeading, CardFooter, CardFooterText, CardRightArrow} from './CardsSection.element'
 import { FaArrowRight } from 'react-icons/fa'
 import Fade from 'react-reveal/Fade'
 import { useTranslation } from 'react-i18next'
@@ -25,7 +25,7 @@ const CardsSection = () => {
                             </CardInfo>
                             <CardFooter>
                                 <CardFooterText>{t('Cards.CardFooter')}</CardFooterText>
-                                <SocialIconLink><FaArrowRight /></SocialIconLink>
+                                <CardRightArrow><FaArrowRight /></CardRightArrow>
                             </CardFooter>
                             </Fade>
                         </Card>
@@ -38,7 +38,7 @@ const CardsSection = () => {
                             </CardInfo>
                             <CardFooter>
                                 <CardFooterText>{t('Cards.CardFooter')}</CardFooterText>
-                                <SocialIconLink><FaArrowRight /></SocialIconLink>
+                                <CardRightArrow><FaArrowRight /></CardRightArrow>
                             </CardFooter>
                             </Fade>
                         </Card>
@@ -51,7 +51,7 @@ const CardsSection = () => {
                             </CardInfo>
                             <CardFooter>
                                 <CardFooterText>{t('Cards.CardFooter')}</CardFooterText>
-                                <SocialIconLink><FaArrowRight /></SocialIconLink>
+                                <CardRightArrow><FaArrowRight /></CardRightArrow>
                             </CardFooter>
                             </Fade>
                         </Card>

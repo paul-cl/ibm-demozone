@@ -1,7 +1,6 @@
-import styled from 'styled-components';
-import { AiOutlineDatabase } from 'react-icons/ai';
-import { Link } from 'react-router-dom';
-import { Container } from '../../globalStyles';
+import styled from 'styled-components'
+import { Link } from 'react-router-dom'
+import { Container } from '../../globalStyles'
 
 export const Nav = styled.nav `
   background: ${({scrollNav}) => (scrollNav ? 'rgb(30, 30, 30)' : 'transparent')};
@@ -23,6 +22,7 @@ export const NavbarContainer = styled(Container)`
   height: 60px;
 
   ${Container}
+  
 `;
 
 export const NavLogo = styled(Link)`
@@ -30,14 +30,23 @@ export const NavLogo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 1.8rem;
   display: flex;
   align-items: center;
   z-index: 999;
 `;
 
-export const NavIcon = styled(AiOutlineDatabase)`
-  margin-right: 0.5rem;
+export const NavIcon = styled.img`
+    padding-right: 0;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 32px;
+
+    @media screen and (max-width: 820px) {
+        max-height: 30px;
+        max-width: 100px;
+    }
 `;
 
 export const MobileIcon = styled.div`

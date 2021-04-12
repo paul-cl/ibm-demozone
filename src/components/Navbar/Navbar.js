@@ -38,8 +38,9 @@ const Navbar = () => {
                 <Nav scrollNav = {scrollNav}>
                     <NavbarContainer>
                         <NavLogo to='/' >
-                            <NavIcon />
-                            DEMO HUB
+                        <NavIcon src={require('../../images/drawing.svg').default} alt='ibm' />
+                            {/* <NavIcon />
+                            DEMO HUB */}
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
