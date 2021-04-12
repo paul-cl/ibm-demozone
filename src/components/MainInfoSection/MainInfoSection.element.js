@@ -25,6 +25,7 @@ export const Wrapper = styled.div `
     max-width: 1300px;
     align-items: center;
     height: 100vh;
+    min-height: -webkit-fill-available;
     
     margin-right: auto;
     margin-left: auto;
