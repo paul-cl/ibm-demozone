@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next';
 import React from 'react'
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa'
@@ -14,6 +15,13 @@ const Footer = () => {
     function handleClick(lang){
         i18n.changeLanguage(lang);
     }
+
+    useEffect(
+        () => {
+            window.scrollTo(0, 0);
+        },
+        []
+    );
 
     return (
         <FooterContainer>

@@ -37,7 +37,7 @@ const Navbar = () => {
             <IconContext.Provider value= {{ color: '#fff'}}>
                 <Nav scrollNav = {scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to='/' >
+                        <NavLogo to='/ibm-demozone' >
                         <NavIcon src={require('../../images/drawing.svg').default} alt='ibm' />
                             {/* <NavIcon />
                             DEMO HUB */}
@@ -49,12 +49,12 @@ const Navbar = () => {
                             <NavItem>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to='/'>
+                                <NavLinks to='/ibm-demozone'>
                                     {t('NavbarContents.1')}
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to='/services'>
+                                <NavLinks to='/ibm-demozone/demo'>
                                     {t('NavbarContents.2')}
                                 </NavLinks>
                             </NavItem>
