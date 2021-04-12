@@ -193,6 +193,7 @@ export const FooterLanguage = styled.p `
     padding: 10px;
     word-break: keep-all;
     vertical-align: middle;
+    cursor: pointer;
 
     &:hover {
         color: #00adef;
