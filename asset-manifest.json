@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/ibm-demozone/static/js/main.03633538.chunk.js",
-    "main.js.map": "/ibm-demozone/static/js/main.03633538.chunk.js.map",
+    "main.js": "/ibm-demozone/static/js/main.0e222514.chunk.js",
+    "main.js.map": "/ibm-demozone/static/js/main.0e222514.chunk.js.map",
     "runtime-main.js": "/ibm-demozone/static/js/runtime-main.0decf849.js",
     "runtime-main.js.map": "/ibm-demozone/static/js/runtime-main.0decf849.js.map",
-    "static/js/2.b890b235.chunk.js": "/ibm-demozone/static/js/2.b890b235.chunk.js",
-    "static/js/2.b890b235.chunk.js.map": "/ibm-demozone/static/js/2.b890b235.chunk.js.map",
+    "static/js/2.cf3aba72.chunk.js": "/ibm-demozone/static/js/2.cf3aba72.chunk.js",
+    "static/js/2.cf3aba72.chunk.js.map": "/ibm-demozone/static/js/2.cf3aba72.chunk.js.map",
     "index.html": "/ibm-demozone/index.html",
-    "static/js/2.b890b235.chunk.js.LICENSE.txt": "/ibm-demozone/static/js/2.b890b235.chunk.js.LICENSE.txt",
+    "static/js/2.cf3aba72.chunk.js.LICENSE.txt": "/ibm-demozone/static/js/2.cf3aba72.chunk.js.LICENSE.txt",
     "static/media/blog.svg": "/ibm-demozone/static/media/blog.b266f1f0.svg",
     "static/media/demo.svg": "/ibm-demozone/static/media/demo.46518297.svg",
     "static/media/drawing.svg": "/ibm-demozone/static/media/drawing.f423512e.svg",
@@ -20,7 +20,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0decf849.js",
-    "static/js/2.b890b235.chunk.js",
-    "static/js/main.03633538.chunk.js"
+    "static/js/2.cf3aba72.chunk.js",
+    "static/js/main.0e222514.chunk.js"
   ]
 }
