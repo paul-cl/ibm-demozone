@@ -6,7 +6,7 @@ import { InfoSection, InfoSection2, InfoSection3, MainInfoSection, CardsSection 
 const Home = () => {
     return (
         <>
-            
+            <MainInfoSection />
             <InfoSection {...InfoOne} />
             <InfoSection2 {...InfoTwo} />
             <InfoSection3 {...InfoThree} />
