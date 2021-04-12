@@ -12,7 +12,6 @@ const Footer = () => {
     const { t, i18n } = useTranslation();
   
     function handleClick(lang){
-        window.location.reload();
         i18n.changeLanguage(lang);
     }
 
