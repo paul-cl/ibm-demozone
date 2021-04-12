@@ -1,0 +1,51 @@
+{
+    "NavbarContents": {
+        "1": "Home",
+        "2": "Demo"
+    },
+    "MainHome":{
+        "Title1": "WELCOME TO",
+        "Title2": "DEMO DRIVE",
+        "Description": "Check out our PoC and demo videos powered by IBM technology"
+    },
+    "Home":{
+        "FirstTopLine": "Briefing Source",
+        "FirstHeadLine": "Insert Briefing Source information here",
+        "FirstSummary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "FirstButton": "Get Started",
+        "SecondTopLine": "Demo Zone",
+        "SecondHeadLine": "Insert Demo Zone information here",
+        "SecondSummary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "SecondButton": "Experience demos",
+        "ThirdTopLine": "IBM Solution",
+        "ThirdHeadLine": "Insert IBM Solution information here",
+        "ThirdSummary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "ThirdButton": "Explore IBM Solution"
+    },
+    "Cards": {
+        "CardsHeading": "Check out more contents here",
+        "CardSubHeading1": "DALLAS",
+        "CardHeading1": "Dallas Client Center Demo Link",
+        "CardSubHeading2": "TOKYO",
+        "CardHeading2": "Client Center Experience Techonolgy Tube",
+        "CardSubHeading3": "BLOG",
+        "CardHeading3": "Your Business with IBM Techonology",
+        "CardFooter": "LEARN MORE"
+    },
+    "Footer":{
+        "Solution": "IBM Service/Solution",
+        "Solutions1": "Machine Learning",
+        "Solutions2": "IBM Cloud Satellite",
+        "Solutions3": "Cloud Paks Series",
+        "Solutions4": "IBM Weather",
+        "ContactUs": "Contact Us",
+        "ContactUs1": "Address: 10 Gukjegeumyung-ro, Yeoui-dong, Yeongdeungpo-gu, Seoul",
+        "ContactUs2": "Phone Number: (02)3781-5006",
+        "ContactUs3": "Email: cipkorea@kr.ibm.com",
+        "VisitUs": "Visit Us",
+        "NewsLetter":" Get the latest IBM newsletter",
+        "NewsLetter1":"Enter your e-mail address",
+        "NewsLetter2":"Subscribe"
+
+    }
+}
