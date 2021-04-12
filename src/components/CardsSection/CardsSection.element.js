@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { ExternalLink } from 'react-external-link'
 import styled from 'styled-components'
 
 export const CardSection = styled.div`
@@ -47,13 +47,14 @@ export const CardsContainer = styled.div`
   }
 `
 
-export const Card = styled(Link)`
+export const Card = styled(ExternalLink)`
   background: #F5F5F5;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 270px;
   height: 420px;
   text-decoration: none;
   border-radius: 4px;
+  cursor: pointer;
 
   &:nth-child(2) {
     margin-left: 80px;

@@ -29,7 +29,8 @@ const CardsSection = () => {
                             </CardFooter>
                             </Fade>
                         </Card>
-                        <Card to='/'>
+                        
+                        <Card href='http://cectechtube.mybluemix.net/' target='_blank' aria-label='TechTube'>
                             <Fade>
                             <CardInfo>
                                 <CardImg src={require('../../images/japan.svg').default} alt='japan'/>
