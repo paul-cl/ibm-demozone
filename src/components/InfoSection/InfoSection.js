@@ -17,6 +17,7 @@ const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                             <Fade top>
                                 <TextWrapper>
                                     <TopLine lightTopLine={lightTopLine}>{t('Home.FirstTopLine')}</TopLine>
+                                    
                                     <Heading lightText={lightText}>{t('Home.FirstHeadLine')}</Heading>
                                     <Subtitle lightTextDesc={lightTextDesc}>{t('Home.FirstSummary')}</Subtitle>
                                     <Link to=''>

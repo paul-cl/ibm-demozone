@@ -52,8 +52,8 @@ export const TopLine = styled.div `
 
 export const Heading = styled.h1 `
     margin-bottom: 24px;
-    font-size: 42px;
-    line-height: 48px;
+    font-size: 30px;
+    line-height: 35px;
     color: ${({lightText}) => (lightText ? '#f7f8fa' : '#1c2237')};
 `
 
