@@ -1,7 +1,7 @@
 import React from 'react'
 import Video from '../../images/test.mp4'
 import { useTranslation } from 'react-i18next';
-import { Wrapper, BackgroundVid, Videosrc, TitleTextWrapper, MainTitle, MainParagraph, TitleLine } from './MainInfoSection.element'
+import { Wrapper, BackgroundVid, Videosrc, TitleTextWrapper, MainTitle, MainParagraph, MainParagraph2 } from './MainInfoSection.element'
 
 const MainInfoSection = () => {
     const { t } = useTranslation(); 
@@ -15,10 +15,13 @@ const MainInfoSection = () => {
                 
                 
                 <TitleTextWrapper>
-                    <MainTitle>{t('MainHome.Title1')}</MainTitle>
+                    {/* <MainTitle>{t('MainHome.Title1')}</MainTitle>
                     <MainTitle>{t('MainHome.Title2')}</MainTitle>
                     <TitleLine></TitleLine>
-                    <MainParagraph>{t('MainHome.Description')}</MainParagraph>
+                    <MainParagraph>{t('MainHome.Description')}</MainParagraph> */}
+                    <MainTitle>{t('MainHome.Title1')}</MainTitle>
+                    <MainParagraph>{t('MainHome.Description1')}</MainParagraph>
+                    <MainParagraph2>{t('MainHome.Description2')}</MainParagraph2>
                 </TitleTextWrapper> 
 
             </Wrapper>

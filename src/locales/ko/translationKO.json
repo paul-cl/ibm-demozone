@@ -5,9 +5,9 @@
         "3": "회원가입"
     },
     "MainHome":{
-        "Title1": "DEMO DRIVE에 오신걸",
-        "Title2": "환영합니다",
-        "Description": "IBM 솔루션으로 만든 PoC와 데모 비디오를 여기서 체험하세요"
+        "Title1": "Digital Transformation",
+        "Description1": "막상 어디서부터 어떻게 시작해야 할지 막막할 때, 여러분의 조직에 꼭 필요한 다채로운 프로그램을 선택해보세요.",
+        "Description2": "일하는 방식을 변화하고 성공적인 디지털 전환을 이룰 수 있도록 다양한 고객 경험 프로그램을 무료로 제공하고 있습니다."
     },
     "Home":{
         "FirstTopLine": "",

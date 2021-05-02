@@ -13,7 +13,7 @@ export const BackgroundVid = styled.div `
 
 export const Videosrc = styled.video `
     width: 100%;
-    height: 100%;
+    height: 70%;
     object-fit: cover;
     z-index: -1;
     
@@ -24,7 +24,7 @@ export const Wrapper = styled.div `
     justify-content: flex-start;
     max-width: 1300px;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
     min-height: -webkit-fill-available;
     
     margin-right: auto;
@@ -49,7 +49,7 @@ export const TitleTextWrapper = styled.div `
 
 export const MainTitle = styled.h1 `
     color: #fff;
-    font-size: 3.8rem;
+    font-size: 3.2rem;
     text-align: left;
 
     @media screen and (max-width: 768px) {
@@ -67,6 +67,24 @@ export const MainParagraph = styled.p `
     margin-top: 24px;
     color: #fff;
     font-size: 1.3rem;
+    text-align: left;
+    max-width: 600px;
+    @media screen and (max-width: 768px) {
+        font-size: 1rem;
+        max-width: 280px;
+    }
+    
+    @media screen and (max-width: 480px) {
+        max-width: 280px;
+        font-size: 0.9rem;
+    }
+
+`
+
+export const MainParagraph2 = styled.p `
+    margin-top: 5px;
+    color: #fff;
+    font-size: 0.9rem;
     text-align: left;
     max-width: 480px;
     @media screen and (max-width: 768px) {

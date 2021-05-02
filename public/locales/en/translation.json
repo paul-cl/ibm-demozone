@@ -4,9 +4,9 @@
         "2": "Demo"
     },
     "MainHome":{
-        "Title1": "WELCOME TO",
-        "Title2": "DEMO DRIVE",
-        "Description": "Check out our PoC and demo videos powered by IBM technology"
+        "Title1": "Digital Transformation",
+        "Description1": "Description Translation goes here",
+        "Description2": "Description Translation 2 goes here"
     },
     "Home":{
         "FirstTopLine": "Briefing Source",
