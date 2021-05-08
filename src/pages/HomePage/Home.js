@@ -7,10 +7,11 @@ const Home = () => {
     return (
         <>
             <MainInfoSection />
+            <CardsSection />
             <InfoSection {...InfoOne} />
             <InfoSection2 {...InfoTwo} />
             <InfoSection3 {...InfoThree} />
-            <CardsSection />
+            
         </>
     )
 }

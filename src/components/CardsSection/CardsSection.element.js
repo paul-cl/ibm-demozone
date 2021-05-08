@@ -47,24 +47,27 @@ export const CardsContainer = styled.div`
   }
 `
 
-export const Card = styled(ExternalLink)`
-  background: #F5F5F5;
+export const Card = styled.div`
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)),
+    url(${props => props.img});
+  background-size: cover;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
-  width: 270px;
-  height: 420px;
+  width: 320px;
+  height: 500px;
   text-decoration: none;
   border-radius: 4px;
   cursor: pointer;
 
   &:nth-child(2) {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 30px;
     margin-top: 30px;
   }
 
   &:hover {
-    transform: scale(1.06);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+      url(${props => props.img});
     transition: all 0.3s ease-out;
     color: #1c2237;
   }
@@ -77,54 +80,58 @@ export const Card = styled(ExternalLink)`
     }
   }
 `
-
+export const CardHidden = styled.div`
+  padding-top: 0px;
+    overflow:hidden;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    margin-top:500px;
+  
+`
 export const CardInfo = styled.div`
   display: flex;
   flex-direction: column;
-  height: 370px;
+  height: 500px;
   padding: 10px;
   align-items: left;
   color: #fff;
+
+  &:hover {
+    ${CardHidden} {
+      margin-top:0px;
+    }
+  }
+  
+`
+
+export const CardTitle = styled.h1`
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 35px;
+    margin-top: 25px;
+    text-align: center;
+    
+
 `
 
 export const CardImg = styled.img`
-  height: 180px;
+  height: 100px;
   width: 100%;
-  background-color: #111933;
 `
 
-export const CardSubHeading = styled.h3`
-    color: #696969;
+export const CardSubHeading = styled.p`
+    color: #fff;
     margin-bottom: 10px;
     font-size: 0.875rem;
-    margin-top: 15px;
+    margin-top: 25px;
+    text-align: center;
+    
+
 `
 
 export const CardHeading = styled.h4`
-    color: #000000;
-    font-size: 1.5rem;
-`
-export const CardFooter = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  height: 50px;
-  padding: 10px;
-  align-items: right;
-  background-color: #111933;
-`
-
-export const CardFooterText = styled.p`
     color: #fff;
-    font-size: 1rem;
-    font-weight: 700;
-    right: 0;
-    line-height: 30px;
-    vertical-align: middle;
-`
-
-export const CardRightArrow = styled.p`
-  color: #fff;
-  font-size: 1rem;
-  line-height: 32px;
-  padding-left: 7px;
+    font-size: 1.5rem;
 `

@@ -25,7 +25,30 @@ const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                 <Container>
                     <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
                         <div onClick={handleClick}>
-                        This is the front of the card.
+                            <InfoRow imgStart={imgStart}>
+                                <InfoColumn>
+                                    <Fade top>
+                                        <TextWrapper>
+                                            <TopLine lightTopLine={lightTopLine}>{t('Home.FirstTopLine')}</TopLine>
+                                            
+                                            <Heading lightText={lightText}>{t('Home.FirstHeadLine')}</Heading>
+                                            <Subtitle lightTextDesc={lightTextDesc}>{t('Home.FirstSummary')}</Subtitle>
+                                            <Link to=''>
+                                                <Button big fontBig primary={primary}>
+                                                    {t('Home.FirstButton')}
+                                                </Button>
+                                            </Link> 
+                                        </TextWrapper>
+                                    </Fade>
+                                </InfoColumn>
+                                <InfoColumn>
+                                    <Fade top>
+                                        <ImageWrapper>
+                                            <Img src={img} alt={alt} />
+                                        </ImageWrapper>
+                                    </Fade>
+                                </InfoColumn>
+                            </InfoRow>
                         </div>
 
                         <div onClick={handleClick}>
@@ -41,30 +64,7 @@ const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                         This is the back of the card.
                         </div>
                     </ReactCardFlip>
-                    <InfoRow imgStart={imgStart}>
-                        <InfoColumn>
-                            <Fade top>
-                                <TextWrapper>
-                                    <TopLine lightTopLine={lightTopLine}>{t('Home.FirstTopLine')}</TopLine>
-                                    
-                                    <Heading lightText={lightText}>{t('Home.FirstHeadLine')}</Heading>
-                                    <Subtitle lightTextDesc={lightTextDesc}>{t('Home.FirstSummary')}</Subtitle>
-                                    <Link to=''>
-                                        <Button big fontBig primary={primary}>
-                                            {t('Home.FirstButton')}
-                                        </Button>
-                                    </Link> 
-                                </TextWrapper>
-                            </Fade>
-                        </InfoColumn>
-                        <InfoColumn>
-                            <Fade top>
-                                <ImageWrapper>
-                                    <Img src={img} alt={alt} />
-                                </ImageWrapper>
-                            </Fade>
-                        </InfoColumn>
-                    </InfoRow>
+                    
                 </Container>
             </InfoSec>
         </>

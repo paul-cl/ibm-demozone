@@ -1,6 +1,6 @@
 import React from 'react'
 import { CardSection, CardsWrapper, CardsHeading, CardsContainer, Card, CardInfo, CardImg, 
-        CardSubHeading, CardHeading, CardFooter, CardFooterText, CardRightArrow} from './CardsSection.element'
+         CardTitle, CardSubHeading, CardHeading, CardFooter, CardFooterText, CardRightArrow, CardHidden} from './CardsSection.element'
 import { FaArrowRight } from 'react-icons/fa'
 import Fade from 'react-reveal/Fade'
 import { useTranslation } from 'react-i18next'
@@ -16,44 +16,43 @@ const CardsSection = () => {
                     <CardsHeading>{t('Cards.CardsHeading')}</CardsHeading>
                     </Fade>
                     <CardsContainer>
-                        <Card to='/'>
+                        <Card to='/' img = {"https://380342-1192392-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/08/briefing-no-desenvolvimento-de-projetos-696x464.jpg"}>
                             <Fade>
                             <CardInfo>
-                                <CardImg src={require('../../images/usa.svg').default} alt='usa'/>
-                                <CardSubHeading>{t('Cards.CardSubHeading1')}</CardSubHeading>
-                                <CardHeading>{t('Cards.CardHeading1')}</CardHeading>
+                                <CardTitle>TECHNOLOGY<br></br> BRIEFING</CardTitle>
+                                <CardHidden>
+                                    <CardImg src={require('../../images/usa.svg').default} alt='usa'/>
+                                    <CardSubHeading>{t('Cards.CardSubHeading1')}</CardSubHeading>
+                                </CardHidden>
+                                
                             </CardInfo>
-                            <CardFooter>
+                            {/* <CardFooter>
                                 <CardFooterText>{t('Cards.CardFooter')}</CardFooterText>
                                 <CardRightArrow><FaArrowRight /></CardRightArrow>
-                            </CardFooter>
+                            </CardFooter> */}
                             </Fade>
                         </Card>
                         
-                        <Card href='http://cectechtube.mybluemix.net/' target='_blank' aria-label='TechTube'>
+                        <Card img = {"https://cdn.techinasia.com/wp-content/uploads/2016/03/mox-demo-day-2016-a-crowd.jpg"}>
                             <Fade>
                             <CardInfo>
+                                <CardTitle>EXPERIENCE<br></br>DAY</CardTitle>
+                                <CardHidden>
                                 <CardImg src={require('../../images/japan.svg').default} alt='japan'/>
                                 <CardSubHeading>{t('Cards.CardSubHeading2')}</CardSubHeading>
-                                <CardHeading>{t('Cards.CardHeading2')}</CardHeading>
+                                </CardHidden>
                             </CardInfo>
-                            <CardFooter>
-                                <CardFooterText>{t('Cards.CardFooter')}</CardFooterText>
-                                <CardRightArrow><FaArrowRight /></CardRightArrow>
-                            </CardFooter>
                             </Fade>
                         </Card>
-                        <Card to='/'>
+                        <Card img = {"https://i.pinimg.com/originals/5a/0b/d7/5a0bd7df42e79dc2ce5024a9d6d67da7.jpg"}>
                             <Fade>
                             <CardInfo>
+                                <CardTitle>DISCOVERY<br></br>WORKSHOP</CardTitle>
+                                <CardHidden>
                                 <CardImg src={require('../../images/blog.svg').default} alt='ibm'/>
                                 <CardSubHeading>{t('Cards.CardSubHeading3')}</CardSubHeading>
-                                <CardHeading>{t('Cards.CardHeading3')}</CardHeading>
+                                </CardHidden>
                             </CardInfo>
-                            <CardFooter>
-                                <CardFooterText>{t('Cards.CardFooter')}</CardFooterText>
-                                <CardRightArrow><FaArrowRight /></CardRightArrow>
-                            </CardFooter>
                             </Fade>
                         </Card>
                     </CardsContainer>
