@@ -72,8 +72,16 @@ export const Card = styled.div`
     color: #1c2237;
   }
 
+  @media screen and (max-width: 1200px) {
+    width: 60%;
+    margin: 0;
+    &:hover {
+      transform: none;
+    }
+  }
+
   @media screen and (max-width: 960px) {
-    width: 90%;
+    width: 50%;
 
     &:hover {
       transform: none;
