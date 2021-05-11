@@ -1,26 +1,20 @@
 # Specify a base image
-FROM node:14.5.0 as build-deps
+FROM node:alpine
+
+RUN apk update && apk upgrade
 
 # Create working directory and copy the app before running yarn install as the artifactory
 # credentials can be inside .npmrc
-WORKDIR /usr/src/app
+WORKDIR /app
 COPY . ./
 
 # Run yarn install
 RUN yarn install
 
-# Build the project
-# CMD ["yarn", "run", "build"]
 
-# Install serve command for yarn package manager
-# RUN yarn global add serve
-
-# Navigate to build folder
-# WORKDIR /usr/src/app/build
 
 ENV PORT 3000
 EXPOSE 3000
 
-
-# Start the application
+# Define command to run the application when the container starts
 CMD [ "yarn", "start" ]
