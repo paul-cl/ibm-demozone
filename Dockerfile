@@ -3,6 +3,10 @@ FROM node:14.5.0 as build-deps
 
 # Create working directory and copy the app before running yarn install as the artifactory
 # credentials can be inside .npmrc
+# Give owner rights to the current user
+RUN chown -Rh $user:$user /project
+USER $user
+
 WORKDIR /usr/src/app
 COPY . ./
 
