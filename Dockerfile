@@ -7,7 +7,7 @@ FROM node:14.5.0 as build-deps
 RUN mkdir -p /app
 #RUN chmod -R 777 /app
 
-WORKDIR /appEACCES: permission denied
+WORKDIR /app
 COPY . ./
 
 # Run yarn install
