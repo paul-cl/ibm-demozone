@@ -1,10 +1,25 @@
-FROM mhart/alpine-node:11 AS builder
-WORKDIR /app
-COPY . .
-RUN yarn run build
+# Specify a base image
+FROM node:14.5.0 as build-deps
 
-FROM mhart/alpine-node
+# Create working directory and copy the app before running yarn install as the artifactory
+# credentials can be inside .npmrc
+WORKDIR /usr/src/app
+COPY . ./
+
+# Run yarn install
+RUN yarn install
+
+# Build the project
+CMD ["yarn", "run", "build"]
+
+# Install serve command for yarn package manager
 RUN yarn global add serve
-WORKDIR /app
-COPY --from=builder /app/build .
-CMD ["serve", "-p", "80", "-s", "."]
+
+# Navigate to build folder
+# WORKDIR /usr/src/app/build
+
+ENV HOST 0.0.0.0
+EXPOSE 3000
+
+# Start the application
+CMD [ "yarn", "start" ]
