@@ -12,6 +12,11 @@ COPY . ./
 RUN yarn install
 
 
+RUN chmod -R u+x /app && \
+    chgrp -R 0 /app && \
+    chmod -R g=u /app /etc/passwd
+
+
 
 ENV PORT 3000
 EXPOSE 3000
