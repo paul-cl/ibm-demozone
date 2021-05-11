@@ -19,7 +19,7 @@ RUN yarn global add serve
 # WORKDIR /usr/src/app/build
 
 ENV HOST 0.0.0.0
-EXPOSE 3000
+EXPOSE 8080
 
 # Start the application
 CMD [ "yarn", "start" ]
