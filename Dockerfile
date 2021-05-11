@@ -17,7 +17,7 @@ RUN chmod -R u+x /app && \
     chmod -R g=u /app /etc/passwd
 
 
-
+# expose port
 ENV PORT 3000
 EXPOSE 3000
 
