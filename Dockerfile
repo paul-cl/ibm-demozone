@@ -23,9 +23,9 @@ RUN yarn install
 # WORKDIR /usr/src/app/build
 
 
-RUN chmod -R u+x /app && \
-    chgrp -R 0 /app && \
-    chmod -R g=u /app /etc/passwd
+#RUN chmod -R u+x /app && \
+#    chgrp -R 0 /app && \
+#    chmod -R g=u /app /etc/passwd
 
 
 ENV PORT 3000
