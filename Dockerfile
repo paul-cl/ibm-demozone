@@ -10,16 +10,16 @@ COPY . ./
 RUN yarn install
 
 # Build the project
-CMD ["yarn", "run", "build"]
+# CMD ["yarn", "run", "build"]
 
 # Install serve command for yarn package manager
-RUN yarn global add serve
+# RUN yarn global add serve
 
 # Navigate to build folder
 # WORKDIR /usr/src/app/build
 
 ENV HOST 0.0.0.0
-EXPOSE 8080
+EXPOSE 3000
 
 # Start the application
 CMD [ "yarn", "start" ]
